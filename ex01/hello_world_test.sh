@@ -1,5 +1,5 @@
 #!/usr/bin/env bats
-echo "Artem tozhe luchshiy"
+
 @test "When given no name, it should greet the world!" {
   run bash hello_world.sh
 
