@@ -1,0 +1,15 @@
+.:
+README.md
+ex02.sh
+resources
+test_ex02.sh
+./resources:
+FOLDER
+PATH
+./resources/FOLDER:
+FINDME.txt
+STR
+./resources/FOLDER/STR:
+ANOTHERNEW.txt
+./resources/PATH:
+SRCHFL.txt
