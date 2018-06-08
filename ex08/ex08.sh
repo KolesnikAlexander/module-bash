@@ -1,11 +1,5 @@
 #!/bin/bash
 
-for i in 0 1 2 3 4 5 6 7 8 9
-do
-  grep -o "$i" resources/digitfile.txt | wc -l
-done
-
-
 zer=$(grep -o "0" resources/digitfile.txt | wc -l)" zeroes"
 ones=$(grep -o "1" resources/digitfile.txt | wc -l)" ones"
 twos=$(grep -o "2" resources/digitfile.txt | wc -l)" twos"
