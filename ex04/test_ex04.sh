@@ -11,7 +11,7 @@
 }
 
 @test "No args" {
-  run bash resources/ex04.sh
+  run bash ex04.sh
 
   [ "$status" -eq 1 ]
   [ "$output" = '' ]
